@@ -1,0 +1,13 @@
+opencv-python
+numpy
+requests
+gdown
+torch
+torchvision
+torchaudio
+seaborn
+PyYAML>=5.3.1
+Pillow>=7.1.2
+scipy>=1.4.1
+tqdm>=4.41.0
+protobuf<4.21.3
