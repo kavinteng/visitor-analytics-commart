@@ -463,7 +463,7 @@ def read_nvr(check):
     elif check == 7:
         model_conf = read_config.get('BASE CONFIG', 'model conf')
         model_iou = read_config.get('BASE CONFIG', 'model iou')
-        return model_conf,model_iou
+        return int(model_conf),int(model_iou)
 
 
 def set_polycon_tk(rtsp):
